@@ -21,8 +21,8 @@ public class DataTypes {
         System.out.println(m);
 
         //long
-        long lnum = 15000000000L;
-        System.out.println(lnum);
+        long lNum = 15000000000L;
+        System.out.println(lNum);
 
         // primitive Character
         //char data type
@@ -57,5 +57,12 @@ public class DataTypes {
         System.out.println(bool2);
         System.out.println(bool1);
 
+        // literals
+        int numLit1 = 0b101;
+        System.out.println(numLit1);
+        int numLit2 = 0xBE;
+        System.out.println(numLit2);
+        int numLit3 = 1_00_00_00_000;
+        System.out.println(numLit3);
     }
 }
