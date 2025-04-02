@@ -64,5 +64,30 @@ public class DataTypes {
         System.out.println(numLit2);
         int numLit3 = 1_00_00_00_000;
         System.out.println(numLit3);
+        double dLit = 12e10;
+        System.out.println(dLit);
+        char c1 = 'a';
+        c1++;
+        System.out.println(c1);
+
+        //Type conversion
+        // integer to byte
+        byte bTC = 127;
+        int intC = 259;
+        bTC = (byte)intC;
+        System.out.println(bTC); // prints remainder of (259 % 256) which 3
+
+        //float to int type conversion - explicit casting
+        float fTc = 5.6f;
+        int n1Tc = (int)fTc;
+        System.out.println(n1Tc);
+
+        // implicit casting
+        byte aIC = 100;
+        byte bIC = 100;
+        int pIC = aIC * bIC; // here compiler will implicitly cast bytes aIC and bIC into int. to perform multiplication as product will be larger tham byte range
+        System.out.println(pIC);
+
+
     }
 }
