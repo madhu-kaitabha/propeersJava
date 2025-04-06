@@ -13,9 +13,10 @@ public class Mobile{
 
     }
 
+    // constructor
     public Mobile(){
-        brand = "";
-        price = 200;
+        this.brand = "";
+        this.price = 200;
         System.out.println("inside constructor method");
     }
 
