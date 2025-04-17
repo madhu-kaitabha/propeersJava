@@ -13,6 +13,7 @@ abstract class Truck{
 }
 
 // ========================
+// a child abstract class doesn't have to implement  abstract methods of parent abstract class
 abstract class Volvo extends Truck{
 
     abstract public void switchOnRearViewCamera();
